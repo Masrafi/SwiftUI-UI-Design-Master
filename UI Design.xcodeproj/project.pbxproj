@@ -61,7 +61,7 @@
 				4058DE162C9AEA0B006C5D85 /* ContentView.swift */,
 				4058DE182C9AEA0C006C5D85 /* Assets.xcassets */,
 				408B358F2C9BFBB900B061DC /* Google */,
-				408B35902C9BFBCB00B061DC /* OnBoard_Screen */,
+				408B35902C9BFBCB00B061DC /* OnBoard */,
 				408B35932C9C313500B061DC /* Ecommerce */,
 				4058DE1A2C9AEA0C006C5D85 /* Preview Content */,
 			);
@@ -84,12 +84,12 @@
 			path = Google;
 			sourceTree = "<group>";
 		};
-		408B35902C9BFBCB00B061DC /* OnBoard_Screen */ = {
+		408B35902C9BFBCB00B061DC /* OnBoard */ = {
 			isa = PBXGroup;
 			children = (
 				408B35912C9BFC0600B061DC /* OnBoard.swift */,
 			);
-			name = OnBoard_Screen;
+			name = OnBoard;
 			sourceTree = "<group>";
 		};
 		408B35932C9C313500B061DC /* Ecommerce */ = {
