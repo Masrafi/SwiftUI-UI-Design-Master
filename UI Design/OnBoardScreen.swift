@@ -1,21 +1,4 @@
-//
-//  OnBoard.swift
-//  UI Design
-//
-//  Created by Md Khorshed Alam on 19/9/24.
-//
-
 import SwiftUI
-
-struct OnBoard: View {
-    var body: some View {
-        OnBoardScreen()
-    }
-}
-
-#Preview {
-    OnBoard()
-}
 
 //Home screen
 struct Home: View {
