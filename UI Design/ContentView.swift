@@ -15,7 +15,8 @@ struct ContentView: View {
 //        }else {
 //            OnBoardScreen()
 //        }
-        Ecommerce()
+        //Ecommerce()
+        BottomBar()
     }
 }
 
