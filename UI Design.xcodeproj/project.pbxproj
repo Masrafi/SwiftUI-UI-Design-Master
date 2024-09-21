@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4043453D2C9E609300FF0B31 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043453C2C9E609300FF0B31 /* BottomBar.swift */; };
+		404345412C9E6EE700FF0B31 /* NavOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345402C9E6EE700FF0B31 /* NavOne.swift */; };
+		404345432C9E6EF200FF0B31 /* NavTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345422C9E6EF200FF0B31 /* NavTwo.swift */; };
+		404345452C9E6EFD00FF0B31 /* NavThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345442C9E6EFD00FF0B31 /* NavThree.swift */; };
+		404345472C9E6F0700FF0B31 /* NavFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345462C9E6F0700FF0B31 /* NavFour.swift */; };
 		4058DE152C9AEA0B006C5D85 /* UI_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058DE142C9AEA0B006C5D85 /* UI_DesignApp.swift */; };
 		4058DE172C9AEA0B006C5D85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058DE162C9AEA0B006C5D85 /* ContentView.swift */; };
 		4058DE192C9AEA0C006C5D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4058DE182C9AEA0C006C5D85 /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4043453C2C9E609300FF0B31 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		404345402C9E6EE700FF0B31 /* NavOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavOne.swift; sourceTree = "<group>"; };
+		404345422C9E6EF200FF0B31 /* NavTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTwo.swift; sourceTree = "<group>"; };
+		404345442C9E6EFD00FF0B31 /* NavThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavThree.swift; sourceTree = "<group>"; };
+		404345462C9E6F0700FF0B31 /* NavFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavFour.swift; sourceTree = "<group>"; };
 		4058DE112C9AEA0B006C5D85 /* UI Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4058DE142C9AEA0B006C5D85 /* UI_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_DesignApp.swift; sourceTree = "<group>"; };
 		4058DE162C9AEA0B006C5D85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +50,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4043453A2C9E607A00FF0B31 /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				4043453C2C9E609300FF0B31 /* BottomBar.swift */,
+				404345482C9E6F0D00FF0B31 /* Widget */,
+			);
+			path = BottomBar;
+			sourceTree = "<group>";
+		};
+		404345482C9E6F0D00FF0B31 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				404345402C9E6EE700FF0B31 /* NavOne.swift */,
+				404345422C9E6EF200FF0B31 /* NavTwo.swift */,
+				404345442C9E6EFD00FF0B31 /* NavThree.swift */,
+				404345462C9E6F0700FF0B31 /* NavFour.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		4058DE082C9AEA0B006C5D85 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +89,7 @@
 		4058DE132C9AEA0B006C5D85 /* UI Design */ = {
 			isa = PBXGroup;
 			children = (
+				4043453A2C9E607A00FF0B31 /* BottomBar */,
 				40B2D9782C9D788C00548F1D /* Ecommerce */,
 				4058DE142C9AEA0B006C5D85 /* UI_DesignApp.swift */,
 				4058DE162C9AEA0B006C5D85 /* ContentView.swift */,
@@ -181,11 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404345452C9E6EFD00FF0B31 /* NavThree.swift in Sources */,
 				40B2D97A2C9D78B100548F1D /* Ecommerce.swift in Sources */,
 				408B35952C9C314F00B061DC /* EcommerceApp.swift in Sources */,
 				4058DE172C9AEA0B006C5D85 /* ContentView.swift in Sources */,
 				408B35922C9BFC0600B061DC /* OnBoardScreen.swift in Sources */,
+				404345472C9E6F0700FF0B31 /* NavFour.swift in Sources */,
+				4043453D2C9E609300FF0B31 /* BottomBar.swift in Sources */,
+				404345432C9E6EF200FF0B31 /* NavTwo.swift in Sources */,
 				4058DE152C9AEA0B006C5D85 /* UI_DesignApp.swift in Sources */,
+				404345412C9E6EE700FF0B31 /* NavOne.swift in Sources */,
 				4058DE252C9AEADB006C5D85 /* One.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
