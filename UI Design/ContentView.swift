@@ -16,7 +16,9 @@ struct ContentView: View {
 //            OnBoardScreen()
 //        }
         //Ecommerce()
-        BottomBar()
+        //BottomBar()
+        //LocalNotification()
+        ScheduleNotification()
     }
 }
 
