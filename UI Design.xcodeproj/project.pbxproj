@@ -17,8 +17,10 @@
 		4058DE192C9AEA0C006C5D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4058DE182C9AEA0C006C5D85 /* Assets.xcassets */; };
 		4058DE1C2C9AEA0C006C5D85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4058DE1B2C9AEA0C006C5D85 /* Preview Assets.xcassets */; };
 		4058DE252C9AEADB006C5D85 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058DE242C9AEADB006C5D85 /* One.swift */; };
+		4081B64D2CA05D2A000D9E99 /* ScheduleNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081B64C2CA05D2A000D9E99 /* ScheduleNotification.swift */; };
 		408B35922C9BFC0600B061DC /* OnBoardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B35912C9BFC0600B061DC /* OnBoardScreen.swift */; };
 		408B35952C9C314F00B061DC /* EcommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B35942C9C314F00B061DC /* EcommerceApp.swift */; };
+		409B7E792C9FF68300606BB6 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B7E782C9FF68300606BB6 /* LocalNotification.swift */; };
 		40B2D97A2C9D78B100548F1D /* Ecommerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2D9792C9D78B100548F1D /* Ecommerce.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +36,10 @@
 		4058DE182C9AEA0C006C5D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4058DE1B2C9AEA0C006C5D85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4058DE242C9AEADB006C5D85 /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
+		4081B64C2CA05D2A000D9E99 /* ScheduleNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNotification.swift; sourceTree = "<group>"; };
 		408B35912C9BFC0600B061DC /* OnBoardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardScreen.swift; sourceTree = "<group>"; };
 		408B35942C9C314F00B061DC /* EcommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceApp.swift; sourceTree = "<group>"; };
+		409B7E782C9FF68300606BB6 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		40B2D9792C9D78B100548F1D /* Ecommerce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecommerce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +93,7 @@
 		4058DE132C9AEA0B006C5D85 /* UI Design */ = {
 			isa = PBXGroup;
 			children = (
+				409B7E772C9FF66800606BB6 /* notification */,
 				4043453A2C9E607A00FF0B31 /* BottomBar */,
 				40B2D9782C9D788C00548F1D /* Ecommerce */,
 				4058DE142C9AEA0B006C5D85 /* UI_DesignApp.swift */,
@@ -132,6 +137,15 @@
 				408B35942C9C314F00B061DC /* EcommerceApp.swift */,
 			);
 			name = Ecommerce;
+			sourceTree = "<group>";
+		};
+		409B7E772C9FF66800606BB6 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				409B7E782C9FF68300606BB6 /* LocalNotification.swift */,
+				4081B64C2CA05D2A000D9E99 /* ScheduleNotification.swift */,
+			);
+			name = notification;
 			sourceTree = "<group>";
 		};
 		40B2D9782C9D788C00548F1D /* Ecommerce */ = {
@@ -217,9 +231,11 @@
 				408B35952C9C314F00B061DC /* EcommerceApp.swift in Sources */,
 				4058DE172C9AEA0B006C5D85 /* ContentView.swift in Sources */,
 				408B35922C9BFC0600B061DC /* OnBoardScreen.swift in Sources */,
+				4081B64D2CA05D2A000D9E99 /* ScheduleNotification.swift in Sources */,
 				404345472C9E6F0700FF0B31 /* NavFour.swift in Sources */,
 				4043453D2C9E609300FF0B31 /* BottomBar.swift in Sources */,
 				404345432C9E6EF200FF0B31 /* NavTwo.swift in Sources */,
+				409B7E792C9FF68300606BB6 /* LocalNotification.swift in Sources */,
 				4058DE152C9AEA0B006C5D85 /* UI_DesignApp.swift in Sources */,
 				404345412C9E6EE700FF0B31 /* NavOne.swift in Sources */,
 				4058DE252C9AEADB006C5D85 /* One.swift in Sources */,
