@@ -17,8 +17,7 @@ struct ContentView: View {
 //        }
         //Ecommerce()
         //BottomBar()
-        //LocalNotification()
-        ScheduleNotification()
+        CurrentLocation()
     }
 }
 
