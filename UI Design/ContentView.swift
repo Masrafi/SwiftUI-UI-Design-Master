@@ -18,7 +18,8 @@ struct ContentView: View {
         //Ecommerce()
         //BottomBar()
         //CurrentLocation()
-        BottomBarSecond()
+        //BottomBarSecond()
+        SplashScreen()
     }
 }
 
