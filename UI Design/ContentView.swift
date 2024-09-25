@@ -17,7 +17,8 @@ struct ContentView: View {
 //        }
         //Ecommerce()
         //BottomBar()
-        CurrentLocation()
+        //CurrentLocation()
+        BottomBarSecond()
     }
 }
 
