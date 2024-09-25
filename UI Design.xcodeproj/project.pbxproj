@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402DD1532CA3D7E2008FB982 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402DD1522CA3D7E2008FB982 /* SplashScreen.swift */; };
 		4043453D2C9E609300FF0B31 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043453C2C9E609300FF0B31 /* BottomBar.swift */; };
 		404345412C9E6EE700FF0B31 /* NavOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345402C9E6EE700FF0B31 /* NavOne.swift */; };
 		404345432C9E6EF200FF0B31 /* NavTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404345422C9E6EF200FF0B31 /* NavTwo.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402DD1522CA3D7E2008FB982 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		4043453C2C9E609300FF0B31 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		404345402C9E6EE700FF0B31 /* NavOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavOne.swift; sourceTree = "<group>"; };
 		404345422C9E6EF200FF0B31 /* NavTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTwo.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402DD1502CA3D7C9008FB982 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				402DD1522CA3D7E2008FB982 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
 		4043453A2C9E607A00FF0B31 /* BottomBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		4058DE132C9AEA0B006C5D85 /* UI Design */ = {
 			isa = PBXGroup;
 			children = (
+				402DD1502CA3D7C9008FB982 /* SplashScreen */,
 				404BE1852CA2AC1E00ADDD43 /* BottomBarSecond */,
 				404965962CA12C4900285B89 /* UI-Design-Info.plist */,
 				4049658F2CA12AA000285B89 /* Location */,
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402DD1532CA3D7E2008FB982 /* SplashScreen.swift in Sources */,
 				404965932CA12AE400285B89 /* CurrentLocation.swift in Sources */,
 				404345452C9E6EFD00FF0B31 /* NavThree.swift in Sources */,
 				40B2D97A2C9D78B100548F1D /* Ecommerce.swift in Sources */,
